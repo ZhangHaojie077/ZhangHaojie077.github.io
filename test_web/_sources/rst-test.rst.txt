@@ -1,0 +1,151 @@
+*WELCOME!*
+
+**Let's learn reStructuredText**
+
+我展示的是一级标题
+############################
+我展示的是二级标题
+***********************
+我展示的是三级标题
+++++++++++++++++++
+我展示的是四级标题
+==================
+我展示的是五级标题
+::::::::::::::::::
+我展示的是六级标题
+------------------
+
+上面部分
+
+------------
+
+下面部分
+
+Let's learn reStructuredText [#f1]_ ! You'll see a footnote [#f2]_.
+
+.. rubric:: Footnotes
+
+.. [#f1] reStructuredText 是一种轻量级标记语言。
+.. [#f2] 这是第二条脚注.
+
+* 第一项
+* 第二项
+* 第三项
+
++ 第一项
++ 第二项
++ 第三项
+
+- 第一项
+- 第二项
+- 第三项
+
+1. 第一项
+2. 第二项
+3. 第三项
+#. 第一项
+#. 第二项
+#. 第三项
+
+what
+    第一项
+how
+    第二项
+
+:what: 第一项
+:how: 第二项
+
+-a  选项一
+-b  选项二
+
+1. 父列表第一项
+2. 父列表第二项
+
+* 子列表第一项
+* 子列表第二项
+
+3. 父列表第三项
+
+``text``
+
+第一段文本 ::
+
+   代码区块演示
+   展示源代码，不会***渲染***。
+
+第二段文本
+
+::
+
+    引用文本，可以 *包含渲染*
+
+引用文本，可以 *包含渲染*
+
+可参考资料：`Sphinx官网 <http://www.sphinx-doc.org/en/master/>`_
+
+`reStructuredText 详细说明 <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#sections>`_
+
+.. image:: images/basic_screenshot.png
+    :height: 100px
+    :width: 200 px
+    :scale: 50 %
+    :alt: alternate text
+    :align: right
+
+=====  =====  =======
+  A      B    A and B
+=====  =====  =======
+False  False  False
+True   False  False
+False  True   False
+True   True   True
+=====  =====  =======
+
+=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
+False  False  False
+True   False  True
+False  True   True
+True   True   True
+=====  =====  ======
+
+=====  =====
+col 1  col 2
+=====  =====
+1      Second column of row 1.
+2      Second column of row 2.
+       Second line of paragraph.
+3      - Second column of row 3.
+
+       - Second item in bullet
+         list (row 3, column 2).
+\      Row 4; column 1 will be empty.
+=====  =====
+
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | Cells may span columns.          |
++------------------------+------------+---------------------+
+| body row 3             | Cells may  | - Table cells       |
++------------------------+ span rows. | - contain           |
+| body row 4             |            | - body elements.    |
++------------------------+------------+---------------------+
+
+.. list-table::
+
+    * - 单行代码
+      - 代码区块
+      - 代码高亮
+    * - 简单表格
+      - 网格表格
+      - 列表表格
+    * - 外部链接
+      - 内部链接
+      -
+
