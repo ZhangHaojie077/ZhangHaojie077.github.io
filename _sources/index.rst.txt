@@ -13,7 +13,7 @@ Welcome to learn-sphinx's documentation!
 
    chapter1.rst
    chapter2.rst
-   chapter3.md
+   chapter3.rst
 
 
 
