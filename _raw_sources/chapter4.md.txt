@@ -17,23 +17,23 @@
 
 ## 复制
 第二个选项“复制”,意思是说第1个显示器与第2个显示器画面相同（即复制画面）。  
-![](images/chapter4_5.png)        
+![1](images/chapter4_5.png)        
 实际显示画面为：
-![](images/chapter4_6.png)    
+![2](images/chapter4_6.png)    
 
 ## 扩展
 第三个选项“扩展”。意思是说，将画面由显示器1扩展到显示器2上。  
-![](images/chapter4_7.png)   
+![3](images/chapter4_7.png)   
 实际显示画面分三种情况：
 - 某些软件，如PR在工作时，时间轴拉长后更易于编辑。所以，可以用两个相同显示器拼接起来。
-![](images/chapter4_8.png)    
+![4](images/chapter4_8.png)    
 - 多个软件同时工作时，可以其中一个在显示器1中工作，另一个软件在显示器2中工作，如：一个显示器浏览网页，另一个浏览器看电影。  
-![](images/chapter4_9.png)    
+![5](images/chapter4_9.png)    
 - 在播放PPT时，一个显示器显示主画面，另一个显示器控制切换画面，这样可以在控制画面中预先知道主画面下一张画面，以免播放错误，这样就不会出糗了。
-![](images/chapter4_10.png)    
+![6](images/chapter4_10.png)    
 
 ## 仅第二屏幕
 第四个选项“仅第二屏幕”，意思是说，画面只出现在投射的第2个显示器，第一个显示器是关闭的。    
-![](images/chapter4_11.png)  
+![7](images/chapter4_11.png)  
 实际显示画面为：  
-![](images/chapter4_12.png)  
+![8](images/chapter4_12.png)  

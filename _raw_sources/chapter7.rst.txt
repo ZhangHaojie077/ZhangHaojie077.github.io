@@ -1,61 +1,50 @@
-**补充**
-############
+补充
 
-**项目地址**
-****************
-1. `文档写作仓库 <https://github.com/techdocteam/projector_devcode>`_
+项目地址
 
-2. `文档发布仓库 <https://github.com/ZhangHaojie077/ZhangHaojie077.github.io>`_
+文档写作仓库
 
-如果大家对我们的项目感兴趣，非常欢迎大家来到我们的仓库star 和 fork。|ZhangHaojie_01|
+文档发布仓库
 
-**寻求协作**
-****************
-如果大家对我们感兴趣，或者未来想与我们合作的话，可以通过 2001210531@stu.pku.edu.cn 联系我们，期待大家的加入。|ZhangHaojie_02|
+如果大家对我们的项目感兴趣，非常欢迎大家来到我们的仓库star 和 fork。😀
 
-**说明一下通过git访问我们仓库的基础操作**:
+寻求协作
+
+如果大家对我们感兴趣，或者未来想与我们合作的话，可以通过
+
+2001210531@stu.pku.edu.cn
+
+ 联系我们，期待大家的加入。😁
+
+说明一下通过git访问我们仓库的基础操作
+
+:
 
 1.进入一个全新文件夹为clone做准备
 
-.. code:: 
-
-    makdir your dir
-    cd your dir
+   makdir your dir
+   cd your dir
 
 2.clone 远程仓库
 
-.. code:: 
-
-    git clone https://github.com/techdocteam/projector_devcode.git
+   git clone https://github.com/techdocteam/projector_devcode.git
 
 3.建立自己的分支并进入自己的分支
 
-.. code:: 
-
-    git branch branch_yourname
-    git checkout branch_yourname
-    git push origin  branch_yourname
+   git branch branch_yourname
+   git checkout branch_yourname
+   git push origin  branch_yourname
 
 4.将自己的本地修改提交上去
 
-.. code::
-
-    git add .
-    git commit -m 'my first commit'
-    git push origin branch_yourname
+   git add .
+   git commit -m 'my first commit'
+   git push origin branch_yourname
 
 5.拉取你的远程分支的代码到本地
 
-.. code::
+   git pull origin branch_yourname:branch_yourname
 
-    git pull origin branch_yourname:branch_yourname
+致谢
 
-**致谢**
-****************
-
-以上就是我们投影仪说明书的全部内容，感谢大家的阅读。|ZhangHaojie_06|
-
-
-
-
-
+以上就是我们投影仪说明书的全部内容，感谢大家的阅读。😄
