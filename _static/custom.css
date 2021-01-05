@@ -1,0 +1,12 @@
+.wy-nav-side
+{
+	background-color: blue; /* 浏览器不支持时显示 */
+     background-image: linear-gradient(#e66465, #9198e5);
+}
+.wy-side-nav-search, .wy-nav-top
+{
+
+     background-image: linear-gradient(#e97fc9, #e66465);
+
+}
+
